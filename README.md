@@ -1,4 +1,4 @@
-# PasscodeViewController
+# ABPasscode
 A utility control with built in functionality of pass code view that takes inputs in the form secure entry from user. To get the call back methods, you must implement it’s delegate methods to get the code, when user finish entering the passcode.
 
 ## Demo
@@ -16,7 +16,7 @@ A utility control with built in functionality of pass code view that takes input
 ## Adding ABPasscodeViewController to your project
 
 ### METHOD 1:
-1. Add a pod entry for `ABPasscodeViewController` to your Podfile
+1. Add a pod entry for `ABPasscode` to your Podfile
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'

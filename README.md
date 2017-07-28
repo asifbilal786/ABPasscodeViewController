@@ -1,11 +1,8 @@
-# PasscodeViewController
+# ABPasscode
 A utility control with built in functionality of pass code view that takes inputs in the form secure entry from user. To get the call back methods, you must implement it’s delegate methods to get the code, when user finish entering the passcode.
 
 ## Demo
-
-
-### Screenshots
-
+![gif1](https://raw.githubusercontent.com/asifbilal786/ABPasscodeViewController/screenshots/ABPasscode.gif)
 
 ## Requirements
 
@@ -16,7 +13,7 @@ A utility control with built in functionality of pass code view that takes input
 ## Adding ABPasscodeViewController to your project
 
 ### METHOD 1:
-1. Add a pod entry for `ABPasscodeViewController` to your Podfile
+1. Add a pod entry for `ABPasscode` to your Podfile
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -32,7 +29,7 @@ pod 'ABPasscode', '~> 0.1'
 Alternatively, you can directly add all files under the folder Core to your project.
 
 1. Download the [latest code version](https://github.com/asifbilal786/SimplePhotoPicker/archive/master.zip) or add the repository as a git submodule to your git-tracked project.
-2. Open your Xcode project, then drag and drop `PhotoPicker.swift` directory onto your project. Make sure to select Copy items when asked if you extracted the code archive outside of your project.
+2. Open your Xcode project, then drag and drop source directory onto your project. Make sure to select Copy items when asked if you extracted the code archive outside of your project.
  
 
 ## Usage

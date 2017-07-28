@@ -12,6 +12,10 @@
 		295EDDC91F2B4E4C0093D79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295EDDC71F2B4E4C0093D79C /* Main.storyboard */; };
 		295EDDCB1F2B4E4C0093D79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295EDDCA1F2B4E4C0093D79C /* Assets.xcassets */; };
 		295EDDCE1F2B4E4C0093D79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295EDDCC1F2B4E4C0093D79C /* LaunchScreen.storyboard */; };
+		295EDDDB1F2B4EC30093D79C /* ABButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EDDD71F2B4EC30093D79C /* ABButton.swift */; };
+		295EDDDC1F2B4EC30093D79C /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EDDD81F2B4EC30093D79C /* PasscodeViewController.swift */; };
+		295EDDDD1F2B4EC30093D79C /* PasscodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 295EDDD91F2B4EC30093D79C /* PasscodeViewController.xib */; };
+		295EDDDE1F2B4EC30093D79C /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EDDDA1F2B4EC30093D79C /* String+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		295EDDCA1F2B4E4C0093D79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		295EDDCD1F2B4E4C0093D79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		295EDDCF1F2B4E4C0093D79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295EDDD71F2B4EC30093D79C /* ABButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABButton.swift; sourceTree = "<group>"; };
+		295EDDD81F2B4EC30093D79C /* PasscodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		295EDDD91F2B4EC30093D79C /* PasscodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasscodeViewController.xib; sourceTree = "<group>"; };
+		295EDDDA1F2B4EC30093D79C /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,26 @@
 		295EDDC21F2B4E4C0093D79C /* ABPasscode */ = {
 			isa = PBXGroup;
 			children = (
+				295EDDD61F2B4E610093D79C /* Example */,
+				295EDDD51F2B4E5C0093D79C /* Source */,
+			);
+			path = ABPasscode;
+			sourceTree = "<group>";
+		};
+		295EDDD51F2B4E5C0093D79C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				295EDDD71F2B4EC30093D79C /* ABButton.swift */,
+				295EDDD81F2B4EC30093D79C /* PasscodeViewController.swift */,
+				295EDDD91F2B4EC30093D79C /* PasscodeViewController.xib */,
+				295EDDDA1F2B4EC30093D79C /* String+Additions.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		295EDDD61F2B4E610093D79C /* Example */ = {
+			isa = PBXGroup;
+			children = (
 				295EDDC31F2B4E4C0093D79C /* AppDelegate.swift */,
 				295EDDC51F2B4E4C0093D79C /* ViewController.swift */,
 				295EDDC71F2B4E4C0093D79C /* Main.storyboard */,
@@ -61,7 +89,7 @@
 				295EDDCC1F2B4E4C0093D79C /* LaunchScreen.storyboard */,
 				295EDDCF1F2B4E4C0093D79C /* Info.plist */,
 			);
-			path = ABPasscode;
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295EDDDD1F2B4EC30093D79C /* PasscodeViewController.xib in Resources */,
 				295EDDCE1F2B4E4C0093D79C /* LaunchScreen.storyboard in Resources */,
 				295EDDCB1F2B4E4C0093D79C /* Assets.xcassets in Resources */,
 				295EDDC91F2B4E4C0093D79C /* Main.storyboard in Resources */,
@@ -136,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295EDDDC1F2B4EC30093D79C /* PasscodeViewController.swift in Sources */,
+				295EDDDE1F2B4EC30093D79C /* String+Additions.swift in Sources */,
 				295EDDC61F2B4E4C0093D79C /* ViewController.swift in Sources */,
+				295EDDDB1F2B4EC30093D79C /* ABButton.swift in Sources */,
 				295EDDC41F2B4E4C0093D79C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +331,7 @@
 				295EDDD41F2B4E4C0093D79C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,9 @@
 		295EDDDC1F2B4EC30093D79C /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EDDD81F2B4EC30093D79C /* PasscodeViewController.swift */; };
 		295EDDDD1F2B4EC30093D79C /* PasscodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 295EDDD91F2B4EC30093D79C /* PasscodeViewController.xib */; };
 		295EDDDE1F2B4EC30093D79C /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EDDDA1F2B4EC30093D79C /* String+Additions.swift */; };
+		295EDDE21F2B51330093D79C /* ABPasscode.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 295EDDDF1F2B51330093D79C /* ABPasscode.podspec */; };
+		295EDDE31F2B51330093D79C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 295EDDE01F2B51330093D79C /* LICENSE */; };
+		295EDDE41F2B51330093D79C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 295EDDE11F2B51330093D79C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		295EDDD81F2B4EC30093D79C /* PasscodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
 		295EDDD91F2B4EC30093D79C /* PasscodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasscodeViewController.xib; sourceTree = "<group>"; };
 		295EDDDA1F2B4EC30093D79C /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		295EDDDF1F2B51330093D79C /* ABPasscode.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABPasscode.podspec; sourceTree = "<group>"; };
+		295EDDE01F2B51330093D79C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		295EDDE11F2B51330093D79C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,9 @@
 		295EDDB71F2B4E4C0093D79C = {
 			isa = PBXGroup;
 			children = (
+				295EDDDF1F2B51330093D79C /* ABPasscode.podspec */,
+				295EDDE01F2B51330093D79C /* LICENSE */,
+				295EDDE11F2B51330093D79C /* README.md */,
 				295EDDC21F2B4E4C0093D79C /* ABPasscode */,
 				295EDDC11F2B4E4C0093D79C /* Products */,
 			);
@@ -151,7 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295EDDE31F2B51330093D79C /* LICENSE in Resources */,
 				295EDDDD1F2B4EC30093D79C /* PasscodeViewController.xib in Resources */,
+				295EDDE21F2B51330093D79C /* ABPasscode.podspec in Resources */,
 				295EDDCE1F2B4E4C0093D79C /* LaunchScreen.storyboard in Resources */,
 				295EDDCB1F2B4E4C0093D79C /* Assets.xcassets in Resources */,
 				295EDDC91F2B4E4C0093D79C /* Main.storyboard in Resources */,
@@ -165,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295EDDE41F2B51330093D79C /* README.md in Sources */,
 				295EDDDC1F2B4EC30093D79C /* PasscodeViewController.swift in Sources */,
 				295EDDDE1F2B4EC30093D79C /* String+Additions.swift in Sources */,
 				295EDDC61F2B4E4C0093D79C /* ViewController.swift in Sources */,
